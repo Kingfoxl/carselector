@@ -8,5 +8,7 @@ Created on Mon Nov  4 20:30:39 2024
 #Bensinbil = 10000 i bensin, 3058 i trafikkforsikringsavgift, 3000 i bom, 7500 i forsikring
 E = 4000+3058+1000+5000 #årlige kostnadene ved elbil
 B = 10000+3058+3000+7500 #årlige kostnadene ved bensinbil
+print("Elbil total kostnad per år:", E, "kr")
+print("Bensinbil total kostnad per år:", B, "kr")
 print("Bensinbil koster", B-E, "kroner mer enn Elbil per år.")
 
